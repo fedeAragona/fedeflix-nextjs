@@ -5,7 +5,7 @@ Proyecto Next.js inicializado con 'create-next-app' el cual el usuario puede bus
 ## Para comenzar
 
 -Asegurese de tener instalado Node.js
--Clonar o descargar el proyecto de GitHub 'https://github.com/fedeAragona/fedeflix-nextjs' (master branch)
+-Clonar o descargar el proyecto de GitHub 'https://github.com/fedeAragona/fedeflix-nextjs' (main)
 -Instalar las dependencias ('npm install')
 -Utilice 'npm run dev' para ejecutar la aplicacion
 -Abrir 'http://localhost:3000' en el navegador para ver los resultados
