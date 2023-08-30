@@ -37,7 +37,7 @@ const Home = () => {
     axios
       .get(`http://www.omdbapi.com/`, {
         params: {
-          apikey: process.env.NEXT_PUBLIC_API_KEY,
+          apikey: "42cb52",
           t: searchMovie,
         },
       })
@@ -79,7 +79,10 @@ const Home = () => {
               alt="imagen pelicula"
               onLoadingComplete={() => setIsImgLoading(false)}
               priority
-            />
+              style={{
+                maxWidth: "100%",
+                height: "auto"
+              }} />
             {isImgLoading && <Loading />}
           </div>
 

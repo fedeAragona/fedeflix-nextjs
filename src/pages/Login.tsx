@@ -33,7 +33,16 @@ const Login = () => {
     <div>
       <div className="bg-zinc-900 flex flex-col items-center justify-center min-h-screen">
        <div className="mb-20">
-        <Image className="" width={400} height={100} alt='logo' src='/Logo.png'></Image>
+        <Image
+          className=""
+          width={400}
+          height={100}
+          alt='logo'
+          src='/Logo.png'
+          style={{
+            maxWidth: "100%",
+            height: "auto"
+          }}></Image>
        </div>
       <div className="bg-white p-4 md:p-8 rounded-lg shadow-md md:w-1/3 w-full mx-10 ">
           <h1 className="text-2xl font-semibold mb-4 text-black text-center">Iniciar sesión</h1>

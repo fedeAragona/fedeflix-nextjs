@@ -34,12 +34,16 @@ export function Navbar({user}:NavbarProps) {
       <div className="container mx-auto flex justify-between flex-col md:flex-row items-center md:justify-between md:items-center">
         <Link href="/">
           <div>
-          <Image className="mb-2 md:mb-0"
-              src="/logo.png"
-              width={200}
-              height={200}
-              alt="logo"
-            />
+          <Image
+            className="mb-2 md:mb-0"
+            src="/logo.png"
+            width={200}
+            height={200}
+            alt="logo"
+            style={{
+              maxWidth: "100%",
+              height: "auto"
+            }} />
           </div>
         </Link>
         <form onSubmit={searchMovie} className="flex items-center space-x-3">
